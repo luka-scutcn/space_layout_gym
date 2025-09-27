@@ -57,8 +57,13 @@ env.close()
 ```
 
 ## Training code
-## TODO
-- [ ] We used various Deep RL libraries including `RLlib`, `StableBaselines3`, `CleanRL` and our custom built RL algorithms. However, we do not share the trainig code as we are still working on this research. Nonetheless, we provide initial codes examples showing how one can use `RLlib` and `StableBaselines3` with `SpaceLayoutGym` environment.
+
+We now include a ready-to-run RLlib PPO training entry point at
+`training/train_rllib_ppo.py`. The script exposes common hyper-parameters on the
+command line and supports environment overrides through YAML/JSON files. Refer to
+[the RLlib PPO training guide](docs/rllib_ppo_training.md) for detailed usage
+instructions, including how to customize the environment configuration and manage
+checkpoints during training.
 
 
 ## License
